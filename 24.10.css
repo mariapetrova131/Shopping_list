@@ -1,85 +1,102 @@
 body {background-color: #383d43;
-font-family: helvetica ;
+  font-family: 'Lato', sans-serif;
 }
 
+.title {text-align: center;
+  background-color: #494e55;
+  width: 100%;
+  padding: .5em;
+}
 
 h1 {
  color:  #e47a7b;
-text-align: center; 
-background-color: #494e55;
+ text-align: center; 
+ background-color: #494e55;
+ margin-top: 0.5em;
+}
+
+.items {
+  margin-top: 2em;
+}
+
+input {
+ margin: 1em;
 }
 
 div {
 	width: 600px;
-	
 	margin:auto;
 }
 
 
-p{ width: 600px;
-height: 30px;
-margin: 0px;
-transition:all.1s ease-in;
-color: #fcffff;
 
+.input { 
+  width: 40em;
+  height: 3em;
+  margin: 0px;
+  color: #fcffff;
+  font-weight: 600;
+  font-size: medium;
 
-
- }
-
- p:after {
- 	content: '(some text)' ;
- }
-
-  p:nth-child(odd) {
-        background-color: #7a7593;
-            }
-
-  p:nth-child(even) {
-           background-color: #88839e;
-            }
-p:active { text-decoration: line-through;
 }
- 
 
-p:hover { color:#b7becf;
+
+.input:after {
+  content: ' (some text)';
+  font-weight: 100;
+}
+
+.input:nth-child(odd) {
+  background-color: #7a7593;
+}
+
+.input:nth-child(even) {
+ background-color: #88839e;
+}
+
+input:active { text-decoration: line-through;
+border: 3px solid white;
+
+}
+
+
+.input:hover { color:#b7becf;
 
 	background:#625e77;
 }
 
 
 
-       .button2 { border: none;
-     
-        width:600px;
-       height:30px;
-       
-       color:  #e47a7b;
-       text-color: red;
-       align: center;
-       background-color:#494e55;
-       margin-bottom: 50px;
-    
-       	
-       }
-
-      .border { outline: 10px solid white; 
-      	
-      	width: 100%;
-      	height: 100%;
-      	margin: 0px; }
+button {
+background-color: #494e55;
+width: 48em;
+height: 4em;
+color: #e47a7b;
+border: none;
+margin-left: 12.5em;
+}
 
 
-      	a  {
-      text-decoration: none;
- color:  #e47a7b;
-text-align: center; 
+
+.border { outline: 10px solid white; 
+
+ outline: 25px solid white;
+ width: 70%;
+ height: 90vh;
+
+ margin-left: auto; }
+
+
+ a  {
+  text-decoration: none;
+  color:  #e47a7b;
+  text-align: center; 
 
 
 }
 
-.k {text-align: center;
-}
 
 
-p:active { text-decoration: line-through;
+
+.input:active { text-decoration: line-through;
 }
